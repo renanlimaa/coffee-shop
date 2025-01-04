@@ -1,0 +1,75 @@
+:root {
+    --bs-link-color: #198754 !important;
+    --bs-link-hover-color: #146c43;
+    --btn-custom-bg: #198754;
+    --btn-custom-border: #146c43;
+    --btn-custom-hover-bg: #146c43;
+    --btn-custom-hover-border: #146c43;
+}
+
+.btn-custom {
+    background-color: var(--btn-custom-bg) !important;
+    border-color: var(--btn-custom-border) !important;
+    color: #ffffff !important;
+}
+
+.btn-custom:hover {
+    background-color: var(--btn-custom-hover-bg) !important;
+    border-color: var(--btn-custom-hover-border) !important;
+    color: #ffffff !important;
+}
+
+
+
+main {
+    margin-top: 5rem;
+}
+
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+
+
+.navbar-brand img {
+    width: 60px;
+}
+
+
+/* Tamanho do Carrossel */
+
+
+.carousel-item {
+    height: 500px;
+}
+
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.carousel-item::before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
+    position: absolute;
+}
+
+
+
+.card-menu img {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+.gmap_iframe {
+    width: 100%;
+    height: 500px;
+  }
